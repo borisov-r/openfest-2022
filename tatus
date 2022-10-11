@@ -1,0 +1,47 @@
+[33mcommit cd1055394c949045465d1e9e16c83dd3978896a4[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m, [m[1;31morigin/gh-pages[m[33m)[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Tue Oct 11 07:54:39 2022 +0300
+
+    commit for presentation
+
+[33mcommit 29166689bc75638997d4947216862b4b4f4a4e7e[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 14:50:45 2022 +0300
+
+    commit for presentation
+
+[33mcommit 10010f35f87fb1ed084373675af87291dae8d229[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 14:14:56 2022 +0300
+
+    check images on slides
+
+[33mcommit 2981b401eb6c5c1e87c63298dde10ecc5d8f7b9c[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 11:50:06 2022 +0300
+
+    remove README.md to use index.html as start page
+
+[33mcommit 454323557625176de23ccec4fe517959a965ea31[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 11:43:47 2022 +0300
+
+    prepare github pages for presentation
+
+[33mcommit 702345e0cc97041a62ac68cdf5cd0a1133dcce3f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 11:29:23 2022 +0300
+
+    removed test string from README.md from previos push and add test.ipynb for test
+
+[33mcommit 722785b7d203b8d4ba09e0161ac2f9ea85f2729f[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 11:24:56 2022 +0300
+
+    initial push from laptop test
+
+[33mcommit fe623dbba4b1359c353145de724811e324750a04[m
+Author: Radoslav Borisov <radoslav.borisov@gmail.com>
+Date:   Sat Oct 8 11:11:56 2022 +0300
+
+    Initial commit
