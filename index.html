@@ -14673,10 +14673,10 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Good day everyone and welcome to my presentation. Thank you all for coming here today and congratulations to the organizers for their 20th aniversary.</p>
-<p>The title of my presentation is &quot;Is the future of VLSI design open source ?&quot;.<br />
-The answer to this question is not trivial.</p>
-<p>In the next slides I'll try to explain why.</p>
-<p>During this process I'll show some of the advancements in the past few years in the field and how you can design your own integrated circuit using open source tools and even fabricate it for free.</p>
+<p>The title of my presentation is &quot;Is the future of VLSI design open source ?&quot;.</p>
+<p>This question came to my mind this summer while whatchin some youtube videos about designing integrate circuits using open source software. I thought that it will be interesting topic for this conference, but I wasn't aware how big of a question it is until I started working on the presentation.</p>
+<p>The answer to this question is not trivial and in the next slides I'll try to explain why.</p>
+<p>During this process I'll show some of the advancements in the past few years in the field and how you can design your own integrated circuits using open source tools and even fabricate them for free.</p>
 <p>Very large-scale integration is the process of creating an integrated circuit by combining millions or billions of MOS transistors onto a single chip. VLSI began in the 1970s when MOS integrated circuit chips were widely adopted, enabling complex semiconductor and telecommunication technologies to be developed.</p>
 <p>Let me start by saying a few words about my own background.</p>
 
@@ -14705,7 +14705,7 @@ The answer to this question is not trivial.</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>I have masters degree in Radiocommunications and I have been in the field of microlectronics for more than 15 years already.</p>
 <p>Mostly worked in the RF, high speed digital and analog design field, even designed some photonics circuits.</p>
-<p>This presentation is mostly about digital designs, so it's not exactly my field of expertise, but I think that it is important to have presentations on open hardware designs like open source software topics.</p>
+<p>This presentation is mostly about digital designs, so it's not exactly my field of expertise, but I think that it is important to have presentations on open hardware designs similar to the open source software topics.</p>
 
 </div>
 </div>
@@ -14730,7 +14730,7 @@ The answer to this question is not trivial.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ol>
-<li>Fab (Factory)</li>
+<li>Foundries and Fabs (Factories)</li>
 </ol>
 
 </div>
@@ -14786,7 +14786,13 @@ The answer to this question is not trivial.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>In order to fabricate something we need factory</p>
+<p>Before we start we should be aware of the whole process.</p>
+<p>In order to fabricate something we need factory.</p>
+<p>Good (or bad) design idea</p>
+<p>Some software that can help during the desing process</p>
+<p>And finally we need some test equipment, test software or both to validate the design</p>
+<p>I the next slides I'll focus on this 4 points and hopefully at the end I'll try to answer the question from the title and of course this is just my opinion and vision.</p>
+<p>To make sure that we are on the same page and we are speaking on the same language I'll explain some fundamental concepts about some terms from the Fabs.</p>
 
 </div>
 </div>
@@ -14799,14 +14805,55 @@ The answer to this question is not trivial.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Foundries-and-Fabs">Foundries and Fabs<a class="anchor-link" href="#Foundries-and-Fabs">&#182;</a></h2><p>The biggest 6 Foundries are: TSMC, Samsung, UMC, GlobalFoundries, SMIC, ST Microelectronics ...</p>
-<p>Fabs look like this inside:</p>
+<h1 id="1.-Foundries-and-Fabs-(Factories)">1. Foundries and Fabs (Factories)<a class="anchor-link" href="#1.-Foundries-and-Fabs-(Factories)">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's have a look how fabs are working.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Foundries-and-Fabs">Foundries and Fabs<a class="anchor-link" href="#Foundries-and-Fabs">&#182;</a></h2><p>The biggest 6 Foundries are: TSMC, Intel, Samsung, UMC, GlobalFoundries, SMIC, ST Microelectronics ...</p>
 <img src="misc/skywater-fab.jpg" width="700px" />
 
 </div>
 </div>
 </div>
-</div></section><section >
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Foundries are called the companies that are responsible for the manufacturing of your design. The foundries can have multiple Fabs facilities eighter on one location or spread all around the world. Fabs provide so called PDKs (Process Design Kits) which should describe thoroughly their process and designers use for their designs.</p>
+<p>The biggest 6 Foundries in the world are: TSMC which holds more than 50% of the market and was the first started working using the pure play foundry model (just fabricating ICs and no end product) as opposed to Samsung, which has own chips and fabricate them, UMC, GlobaFoundries, SMIC and ST Microelectronics</p>
+<p>The Fabs look like the one in the photo and they are expensive to maintain 24/7. The reason for this is trivial. It is really hard to maintain dust free environment. The fabrication process is affected by really small particles and even slight contaminations can make circuits not functional and damage a whole batch of wafers not usable.</p>
+<p>Having said that the machines used during the manufacturing process also very expensive, sensitive to the environment and some of them require toxic gases to operate.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14814,6 +14861,41 @@ The answer to this question is not trivial.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Fabrication-process">Fabrication process<a class="anchor-link" href="#Fabrication-process">&#182;</a></h2><img src="misc/fabrication-process-steps.png" width="1440px" />
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>On the left you are seeing how a patterned wafer looks like.</p>
+<p>Wafer are sliced from one big crystal grown to size usually nowadays 12'' by some processes and then are sliced, cleaned and polished. This is the substrate on which the design will be patterned.</p>
+<p>After signing NDA and paying for fabrication you submit your design as a GDS or OASIS file similar to the Gerber files for PCB designs. This is your pattern that you want to fabricate on the Silicon substrate. The Fab takes your file checks if it is manufacturable using simple rules and in case everything looks good it is send for Mask manufacturing. 
+The masks are the most expensive part usually and a lot of effort is spend to reduce the number of masks.
+For latest processes a set of masks can cost more than million dollar.
+In order to reduce the costs for latest technology nodes Fabs are oraganizing so called MPW (Multi-Project Wafers), where different companies send their designs for fabrication and all designs are fabricated using one set of masks.
+For mass production a company is paying for the masks and purchases number of wafers can be the range of thousands.</p>
+<p>After the masks fabrication the process of applying your design on the wafer starts by applying the patterns for the transistors. This part is called Front-End Of Line processes like oxidation, diffusion, lithography, etching, ion implantation, deposition, chemical-mechanical polishing are applied in a sequence.</p>
+<p>Once the transistors are layed out on the substrate and the connection to the first metal layer are finished, the so called Back End Of Line or BEOL part is starting. The BEOL part defines the so called stack of the process and is used for interconnections and adding passive devices like capacitors, resistors and inductors. Of course capacitors and resistors are realized also in the FEOL part.</p>
+<p>Finally after all metal layers are available there are multiple options for finishing and depending how you would like your chip to be attached to the PCB, you can pick the right one: bonding (used in standard QFN packages, MSOP), balls for BGA packaging or to attach balls directly on the chip which is called WLSP (wafer level scale package).</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/packages.svg" width="1440px" />
 
 </div>
 </div>
@@ -14826,18 +14908,34 @@ The answer to this question is not trivial.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Basic-steps">Basic steps<a class="anchor-link" href="#Basic-steps">&#182;</a></h2><img src="misc/fabrication-process-steps-litho.png" width="1440px" />
-<h3 id="Reference:-https://en.wikichip.org/wiki/mask">Reference: <a href="https://en.wikichip.org/wiki/mask">https://en.wikichip.org/wiki/mask</a><a class="anchor-link" href="#Reference:-https://en.wikichip.org/wiki/mask">&#182;</a></h3>
+<h3 id="Reference:-https://en.wikichip.org/wiki/mask">Reference: <a href="https://en.wikichip.org/wiki/mask">https://en.wikichip.org/wiki/mask</a><a class="anchor-link" href="#Reference:-https://en.wikichip.org/wiki/mask">&#182;</a></h3><h3 id="Reticle-limit-for-193-nm-EUV-lithography-steppers-have-maximum-field-size-of-26x33-mm-or-858-mm%5E2.">Reticle limit for 193 nm EUV lithography steppers have maximum field size of 26x33 mm or 858 mm^2.<a class="anchor-link" href="#Reticle-limit-for-193-nm-EUV-lithography-steppers-have-maximum-field-size-of-26x33-mm-or-858-mm%5E2.">&#182;</a></h3>
 </div>
 </div>
 </div>
-</div></section><section >
+</div><aside class="notes">
+
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Complementary-Metal-Oxide-Process-(CMOS)">Complementary Metal Oxide Process (CMOS)<a class="anchor-link" href="#Complementary-Metal-Oxide-Process-(CMOS)">&#182;</a></h2><h3 id="Defines-2-types-of-tranistor-NMOS-and-PMOS">Defines 2 types of tranistor NMOS and PMOS<a class="anchor-link" href="#Defines-2-types-of-tranistor-NMOS-and-PMOS">&#182;</a></h3><img src="misc/cmos_impurity_profile.png" width="600px" />
+<p>Let's look how the masks are fabricated and what are the limitations.</p>
+<p>UV light in the range of 193 nm is used to shine through the photomask and using the reduction lens the pattern from the mask is applied on the wafer. There is no difference between reticle and mask.</p>
+<p>Current 193 nm EUV lithography machines have a maximum field size of 26 mm by 33 mm or 858 mm² a they have so called stepper in them, which moves the wafer very precisely, so that the pattern in transfered accross the whole wafer.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/stepper-machine.png" width="900px" />
 
 </div>
 </div>
@@ -14849,8 +14947,9 @@ The answer to this question is not trivial.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Process-Variations">Process Variations<a class="anchor-link" href="#Process-Variations">&#182;</a></h2><h3 id="PVT">PVT<a class="anchor-link" href="#PVT">&#182;</a></h3><ol>
-<li>Process variation - defined in transistor model corners and parasitics extraction corners</li>
+<h2 id="Complementary-Metal-Oxide-Process-(CMOS)">Complementary Metal Oxide Process (CMOS)<a class="anchor-link" href="#Complementary-Metal-Oxide-Process-(CMOS)">&#182;</a></h2><img src="misc/130nm-transistor.svg" width="1440px" />
+<h2 id="Process-Variations-(PVT---Process,-Voltage,-Temperature)">Process Variations (PVT - Process, Voltage, Temperature)<a class="anchor-link" href="#Process-Variations-(PVT---Process,-Voltage,-Temperature)">&#182;</a></h2><ol>
+<li>Process variation - defined in transistor model corners (TT, SF, FS, FF) and parasitics extraction corners</li>
 <li>Voltage variation - defined in transistor model corners and in the simulator</li>
 <li>Temperature variation - defined in the transistor model corners and in the simulator</li>
 </ol>
@@ -14858,18 +14957,64 @@ The answer to this question is not trivial.</p>
 </div>
 </div>
 </div>
-</div></section><section >
+</div><aside class="notes">
+
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Process-Development-Kit-(PDK)">Process Development Kit (PDK)<a class="anchor-link" href="#Process-Development-Kit-(PDK)">&#182;</a></h2><h3 id="Minimum-components">Minimum components<a class="anchor-link" href="#Minimum-components">&#182;</a></h3><h4 id="Design-Manual-(DM)-and-Standard-Libraries">Design Manual (DM) and Standard Libraries<a class="anchor-link" href="#Design-Manual-(DM)-and-Standard-Libraries">&#182;</a></h4><h4 id="Device-Models">Device Models<a class="anchor-link" href="#Device-Models">&#182;</a></h4><h4 id="Design-Rules-Check-(DRC)">Design Rules Check (DRC)<a class="anchor-link" href="#Design-Rules-Check-(DRC)">&#182;</a></h4><h4 id="Layout-vs-Schematic-(LVS)">Layout vs Schematic (LVS)<a class="anchor-link" href="#Layout-vs-Schematic-(LVS)">&#182;</a></h4><h3 id="Additional-components">Additional components<a class="anchor-link" href="#Additional-components">&#182;</a></h3><h4 id="Place-and-route-(P&amp;R)">Place and route (P&amp;R)<a class="anchor-link" href="#Place-and-route-(P&amp;R)">&#182;</a></h4><h4 id="Parasitics-Extraction-(PEX)">Parasitics Extraction (PEX)<a class="anchor-link" href="#Parasitics-Extraction-(PEX)">&#182;</a></h4><h4 id="Eletromigration-and-IR-drop-(EMIR)">Eletromigration and IR drop (EMIR)<a class="anchor-link" href="#Eletromigration-and-IR-drop-(EMIR)">&#182;</a></h4><h4 id="Programmable-Electrical-Rules-Checking-(PERC)">Programmable Electrical Rules Checking (PERC)<a class="anchor-link" href="#Programmable-Electrical-Rules-Checking-(PERC)">&#182;</a></h4><h4 id="and-more-...">and more ...<a class="anchor-link" href="#and-more-...">&#182;</a></h4>
+<p>In the CMOS process the main building blocks are N and P type Metal Oxide Transistors.</p>
+<p>What makes them so special is that used together they are able to provide almost zero current, or very low power dissipation while in defined state. This means that they are going to draw current only while switching from On to Off state.</p>
+<p>N-type semiconductors are created by doping an intrinsic semiconductor with an electron donor during manufacture. The term n-type comes from the negative charge of the electron. In n-type semiconductors, electrons are the majority carriers and holes are the minority carriers.</p>
+<p>The term p-type refers to the positive charge of a hole. As opposed to n-type semiconductors, p-type semiconductors have a larger hole concentration than electron concentration.</p>
+<p>Usually the gate lenght is used to provide information about the minimal pattern that this process is capable to reliably fabricate specifies the so called process node. For example 180 nm node, 130 nm node, 45 nm, 28 nm node and so on. This gives opportunity by changing few masks the already working IP or design to be improved by the foundry by moving to node with smalled feature size like from 28 nm to 22 nm for example. This would reduce the size of the chip in the reticle and increase the number of chips on the wafer and also improve the performance and reduce the power consumption at the same time.</p>
+<p>This scaling was predicted by one of the founders of Intel Gordon Moore and is the observation that the number of transistors in a dense integrated circuit (IC) doubles about every two years. Moore's law is an observation and projection of a historical trend. Rather than a law of physics, it is an empirical relationship linked to gains from experience in production.</p>
+<p>In the software for circuits design there is a parameter called PVT which stands for process variation, voltage variation and temperature variation. The process variations account for non idealities during the manufacturing of the transistors and give the minimum, nominal and the typical performance of the transistors. Because we have two types of transistors which can independently change their performance, because of the process we can have TT, SS, SF, FS, FF corner cases.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Process-Development-Kit-(PDK)">Process Development Kit (PDK)<a class="anchor-link" href="#Process-Development-Kit-(PDK)">&#182;</a></h2><h3 id="Minimum-components">Minimum components<a class="anchor-link" href="#Minimum-components">&#182;</a></h3><h4 id="Design-Manual-(DM)-and-Standard-Libraries">Design Manual (DM) and Standard Libraries<a class="anchor-link" href="#Design-Manual-(DM)-and-Standard-Libraries">&#182;</a></h4><h4 id="Device-Models">Device Models<a class="anchor-link" href="#Device-Models">&#182;</a></h4><h4 id="Design-Rules-Check-(DRC)">Design Rules Check (DRC)<a class="anchor-link" href="#Design-Rules-Check-(DRC)">&#182;</a></h4><h4 id="Layout-vs-Schematic-(LVS)">Layout vs Schematic (LVS)<a class="anchor-link" href="#Layout-vs-Schematic-(LVS)">&#182;</a></h4><h3 id="Additional-components">Additional components<a class="anchor-link" href="#Additional-components">&#182;</a></h3><h4 id="Place-and-route-(P&amp;R)">Place and route (P&amp;R)<a class="anchor-link" href="#Place-and-route-(P&amp;R)">&#182;</a></h4><h4 id="Parasitics-Extraction-(PEX)">Parasitics Extraction (PEX)<a class="anchor-link" href="#Parasitics-Extraction-(PEX)">&#182;</a></h4><h4 id="Eletromigration-and-IR-drop-(EMIR)">Eletromigration and IR drop (EMIR)<a class="anchor-link" href="#Eletromigration-and-IR-drop-(EMIR)">&#182;</a></h4><h4 id="Programmable-Electrical-Rules-Checking-(ERC)">Programmable Electrical Rules Checking (ERC)<a class="anchor-link" href="#Programmable-Electrical-Rules-Checking-(ERC)">&#182;</a></h4><h4 id="and-more-...">and more ...<a class="anchor-link" href="#and-more-...">&#182;</a></h4>
 </div>
 </div>
 </div>
 </div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="2.-Design-idea">2. Design idea<a class="anchor-link" href="#2.-Design-idea">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Somethimes the life of some devices is much longer than the life of the company that has developed the circuit.
+For example nuclear plant equipment, rocket or space applications. Security and alarm systems. The certification of such devices is expensive requires long time testing.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14903,6 +15048,29 @@ For analog design usually schematic is used as input data.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="3.-Software">3. Software<a class="anchor-link" href="#3.-Software">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="FSiC-2018">FSiC 2018<a class="anchor-link" href="#FSiC-2018">&#182;</a></h1><img src="misc/FSiC2018.png" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Free-Silicon,-free-as-in-freedom">Free Silicon, free as in freedom<a class="anchor-link" href="#Free-Silicon,-free-as-in-freedom">&#182;</a></h2><p>The Free Silicon Foundation (F-Si) is a nonprofit organization with the scope of promoting:</p>
 <ol>
 <li>Free and Open Source (FOS) CAD tools for designing integrated circuits,</li>
@@ -14910,12 +15078,77 @@ For analog design usually schematic is used as input data.</p>
 <li>common standards,</li>
 <li>the freedom of users in the context of silicon integrated circuits.</li>
 </ol>
+<p>First conference happened in 2018.</p>
 <p><a href="https://wiki.f-si.org">https://wiki.f-si.org</a></p>
 
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>In 2019 I heard about FSiC and even tought of going to Paris on this conference, but couldn't manage and decided to go in 2020 and then pandemic happened. Everything is great, but there was something missing. And the missing part was not the software part. There were already open source SPICE simulators, layout generation softwares and DRC and LVS capable tools. The only thing what was missing was a free and open PDK. Before that if you want to fabricate an ASIC you need to sign NDA with the Fab and get validated PDK and you know that using this PDK you are getting proper simulations (depending on your design skills you can have variation), but in case everything works on simulation, once fabricated most times things work as expected. This is called first time right design and it's important, because of the time and cost for the fabrication of the ASIC.
+ASiC (application-specific integrated circuit)</p>
+<p>And suddently something very interesting happened ....</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Skywater-Open-PDK">Skywater Open PDK<a class="anchor-link" href="#Skywater-Open-PDK">&#182;</a></h1><p><a href="https://github.com/google/skywater-pdk">https://github.com/google/skywater-pdk</a> first commit on May 7, 2020</p>
+
+</div>
+</div>
+</div>
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Documentation">Documentation<a class="anchor-link" href="#Documentation">&#182;</a></h2><p><a href="https://skywater-pdk.readthedocs.io">https://skywater-pdk.readthedocs.io</a></p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="PDK-Libraries-and-files">PDK Libraries and files<a class="anchor-link" href="#PDK-Libraries-and-files">&#182;</a></h2><p><a href="https://github.com/google/skywater-pdk">https://github.com/google/skywater-pdk</a></p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Community">Community<a class="anchor-link" href="#Community">&#182;</a></h2><p><a href="https://open-source-silicon.slack.com">https://open-source-silicon.slack.com</a></p>
+
+</div>
+</div>
+</div>
+</div></div></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14923,7 +15156,269 @@ For analog design usually schematic is used as input data.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Inspiration-information-on-130-nm-Process-Node">Inspiration information on 130 nm Process Node<a class="anchor-link" href="#Inspiration-information-on-130-nm-Process-Node">&#182;</a></h2><p><a href="https://docs.google.com/document/d/1sMmoCfS5l6Uz8sl9Bk3R32XtsdZmC1Hw6bY9nm6r-PA/edit#heading=h.9uyhvd6abdvx">https://docs.google.com/document/d/1sMmoCfS5l6Uz8sl9Bk3R32XtsdZmC1Hw6bY9nm6r-PA/edit#heading=h.9uyhvd6abdvx</a></p>
-<p><a href="https://en.wikipedia.org/wiki/OpenPOWER_Foundation">https://en.wikipedia.org/wiki/OpenPOWER_Foundation</a></p>
+<p><a href="https://en.wikichip.org/wiki/130_nm_lithography_process">https://en.wikichip.org/wiki/130_nm_lithography_process</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Open-Source-EDA-Tools">Open-Source EDA Tools<a class="anchor-link" href="#Open-Source-EDA-Tools">&#182;</a></h2><h4 id="OpenROAD">OpenROAD<a class="anchor-link" href="#OpenROAD">&#182;</a></h4><p><a href="https://openroad.readthedocs.io/en/latest/main/README.html#introduction">https://openroad.readthedocs.io/en/latest/main/README.html#introduction</a></p>
+<p>OpenROAD is the leading open-source, foundational application for semiconductor digital design. It eliminates the barriers of cost, risk and uncertainty in hardware design to foster open access, expertise, rapid innovation, and faster design turnaround. The OpenROAD application enables flexible flow control through an API with bindings in Tcl and Python.</p>
+<h4 id="OpenLane">OpenLane<a class="anchor-link" href="#OpenLane">&#182;</a></h4><p><a href="https://openlane-docs.readthedocs.io/en/rtd-develop/">https://openlane-docs.readthedocs.io/en/rtd-develop/</a></p>
+<p>OpenLANE is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, CVC, SPEF-Extractor and custom methodology scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII - this capability will be released in the coming weeks with completed SoC design examples that have been sent to SkyWater for fabrication.</p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign1.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign2.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign3.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign4.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign5.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign6.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign7.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Open-Source-EDA-Tools">Open-Source EDA Tools<a class="anchor-link" href="#Open-Source-EDA-Tools">&#182;</a></h2><h3 id="Tools-Currently-Supported-by-Open_PDKs">Tools Currently Supported by Open_PDKs<a class="anchor-link" href="#Tools-Currently-Supported-by-Open_PDKs">&#182;</a></h3><p>iverilog
+<a href="https://iverilog.icarus.com">https://iverilog.icarus.com</a></p>
+<p>qflow
+<a href="http://opencircuitdesign.com/qflow">http://opencircuitdesign.com/qflow</a></p>
+<p>IRSIM
+<a href="http://opencircuitdesign.com/irsim">http://opencircuitdesign.com/irsim</a></p>
+<p>xcircuit
+<a href="http://opencircuitdesign.com/xcircuit">http://opencircuitdesign.com/xcircuit</a></p>
+<p>xyce
+<a href="https://xyce.sandia.gov">https://xyce.sandia.gov</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign8.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/opencircuitdesign9.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="OpenRAM">OpenRAM<a class="anchor-link" href="#OpenRAM">&#182;</a></h2><p><a href="https://github.com/VLSIDA/OpenRAM">https://github.com/VLSIDA/OpenRAM</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="ZerotoASIC">ZerotoASIC<a class="anchor-link" href="#ZerotoASIC">&#182;</a></h2><p>Zero to ASIC Course</p>
+<p>Matthew Venn is a science &amp; technology communicator and electronic engineer. He brings 20 years of engineering experience to create excellent and innovative learning experiences for people all over the world.</p>
+<p><a href="https://www.youtube.com/c/ZeroToASIC/featured">https://www.youtube.com/c/ZeroToASIC/featured</a>
+<a href="https://www.zerotoasiccourse.com">https://www.zerotoasiccourse.com</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="ASIC-development-in-the-cloud-with-Proppy">ASIC development in the cloud with Proppy<a class="anchor-link" href="#ASIC-development-in-the-cloud-with-Proppy">&#182;</a></h2><img src="misc/proppy.svg" />
+<p><a href="https://www.youtube.com/watch?v=yCyOVq5ZHYg">https://www.youtube.com/watch?v=yCyOVq5ZHYg</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Open-Source-Hardware-Addition-on-SKY130">Open-Source Hardware Addition on SKY130<a class="anchor-link" href="#Open-Source-Hardware-Addition-on-SKY130">&#182;</a></h2><h4 id="Teodor-Dumitru-Ene---doing-his-PhD---Addition">Teodor-Dumitru Ene - doing his PhD - Addition<a class="anchor-link" href="#Teodor-Dumitru-Ene---doing-his-PhD---Addition">&#182;</a></h4><h4 id="Addition-is-a-very-important-hardware-operation">Addition is a very important hardware operation<a class="anchor-link" href="#Addition-is-a-very-important-hardware-operation">&#182;</a></h4><h4 id="When-a-RISC-V-processor-boots-into-Linux,-65%25-to-72%25-of-instructions-use-addition">When a RISC-V processor boots into Linux, 65% to 72% of instructions use addition<a class="anchor-link" href="#When-a-RISC-V-processor-boots-into-Linux,-65%25-to-72%25-of-instructions-use-addition">&#182;</a></h4><h4 id="Basically-all-arithmetic-operations-are-built-off-addition">Basically all arithmetic operations are built off addition<a class="anchor-link" href="#Basically-all-arithmetic-operations-are-built-off-addition">&#182;</a></h4><h4 id="Subtraction-is-addition-with-a-negative-number">Subtraction is addition with a negative number<a class="anchor-link" href="#Subtraction-is-addition-with-a-negative-number">&#182;</a></h4><h4 id="Multiplication-is-repeated-addition,-so-is-division">Multiplication is repeated addition, so is division<a class="anchor-link" href="#Multiplication-is-repeated-addition,-so-is-division">&#182;</a></h4><h4 id="Incrementing-the-program-counter-is-modified-addition">Incrementing the program counter is modified addition<a class="anchor-link" href="#Incrementing-the-program-counter-is-modified-addition">&#182;</a></h4><h4 id="Elementary-functions-(log,-sine,-square-root,-exponential)-are-performed-using-a-combination-of-lookup-tables-and-addition">Elementary functions (log, sine, square root, exponential) are performed using a combination of lookup tables and addition<a class="anchor-link" href="#Elementary-functions-(log,-sine,-square-root,-exponential)-are-performed-using-a-combination-of-lookup-tables-and-addition">&#182;</a></h4><p><a href="https://docs.google.com/presentation/d/1A8KDiTH1qyAzy9gKalUJgxLuPrOgqfOg7t7j_XdqeGE/edit#slide=id.g1281339cad0_7_396">https://docs.google.com/presentation/d/1A8KDiTH1qyAzy9gKalUJgxLuPrOgqfOg7t7j_XdqeGE/edit#slide=id.g1281339cad0_7_396</a></p>
+<p><a href="https://www.youtube.com/watch?v=P7wjB2DKAIA">https://www.youtube.com/watch?v=P7wjB2DKAIA</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="misc/teodor.svg" />
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Inverter">Inverter<a class="anchor-link" href="#Inverter">&#182;</a></h3><p><a href="https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb">https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb</a></p>
+<h3 id="Adder">Adder<a class="anchor-link" href="#Adder">&#182;</a></h3><p><a href="https://colab.research.google.com/drive/1bqAWs2To8suxx5acmCYp10iWlKI-Qsn4">https://colab.research.google.com/drive/1bqAWs2To8suxx5acmCYp10iWlKI-Qsn4</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="LibrEDA">LibrEDA<a class="anchor-link" href="#LibrEDA">&#182;</a></h2><p>LibrEDA is a young libre-software framework for the physical design of silicon chips and tries to simplify the development of place and route tools. A strong motivation is democratization of silicon technology by making ASIC toolchains easily accessible for research, education and hobbyists.</p>
+<p>It's written in Rust and already supports Klayout. P&amp;R tool with high potential.</p>
+<p><a href="https://libreda.org/">https://libreda.org/</a></p>
+
+</div>
+</div>
+</div>
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Efabless-Open-Shuttle-Program">Efabless Open Shuttle Program<a class="anchor-link" href="#Efabless-Open-Shuttle-Program">&#182;</a></h2><img src="misc/open-shuttle.svg" />
+<p><a href="https://efabless.com/open_shuttle_program">https://efabless.com/open_shuttle_program</a></p>
+<p><a href="https://platform.efabless.com/projects/public">https://platform.efabless.com/projects/public</a></p>
 
 </div>
 </div>
@@ -14935,13 +15430,61 @@ For analog design usually schematic is used as input data.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Skywater-130-nm-PDK">Skywater 130 nm PDK<a class="anchor-link" href="#Skywater-130-nm-PDK">&#182;</a></h2><p>Standard cell libraries:</p>
-<p><a href="https://skywater-pdk.readthedocs.io/en/main/contents/libraries/foundry-provided.html">https://skywater-pdk.readthedocs.io/en/main/contents/libraries/foundry-provided.html</a></p>
+<h2 id="What-is-comming-next-?">What is comming next ?<a class="anchor-link" href="#What-is-comming-next-?">&#182;</a></h2><p><a href="https://developers.google.com/silicon">https://developers.google.com/silicon</a></p>
 
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Skywater-90-nm">Skywater 90 nm<a class="anchor-link" href="#Skywater-90-nm">&#182;</a></h3><p>Today, Google is announcing the expansion of our partnership with SkyWater Technology. We are working together to release an open source process design kit (PDK) for SKY90-FD, SkyWater’s commercial 90nm fully depleted silicon on insulator (FDSOI) CMOS process technology. SKY90-FD is based on MIT Lincoln Laboratory’s 90 nm commercial FDSOI technology, and enables designers to create complex integrated circuits for a diverse range of applications.</p>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment" >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="GlobalFoundries-0.18UM-3.3V">GlobalFoundries 0.18UM 3.3V<a class="anchor-link" href="#GlobalFoundries-0.18UM-3.3V">&#182;</a></h3><p>GlobalFoundries 0.18UM 3.3V/(5V)6V MCU PDK’s</p>
+
+</div>
+</div>
+</div>
+</div></div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="So-what-is-the-answer-to-the-titles'-question-?">So what is the answer to the titles' question ?<a class="anchor-link" href="#So-what-is-the-answer-to-the-titles'-question-?">&#182;</a></h2><h4 id="1.-LEF/DEF-flow-is-good-but-mostly-for-digital-circuits--%3E-I-think-that-all-of-the-EDA-tools-are-working-with-OpenAccess-DB">1. LEF/DEF flow is good but mostly for digital circuits -&gt; I think that all of the EDA tools are working with OpenAccess DB<a class="anchor-link" href="#1.-LEF/DEF-flow-is-good-but-mostly-for-digital-circuits--%3E-I-think-that-all-of-the-EDA-tools-are-working-with-OpenAccess-DB">&#182;</a></h4><h4 id="2.-Definetly-this-is-huge-step-forward,-but-we-still-need-propriatery-software-for-higher-end-nodes-like-65-nm,-45-nm,-28-nm,-22-nm-and-a-lot-of-things-are-missing-yet-compared-to-the-open-source-softwares.">2. Definetly this is huge step forward, but we still need propriatery software for higher end nodes like 65 nm, 45 nm, 28 nm, 22 nm and a lot of things are missing yet compared to the open source softwares.<a class="anchor-link" href="#2.-Definetly-this-is-huge-step-forward,-but-we-still-need-propriatery-software-for-higher-end-nodes-like-65-nm,-45-nm,-28-nm,-22-nm-and-a-lot-of-things-are-missing-yet-compared-to-the-open-source-softwares.">&#182;</a></h4><h4 id="3.-The-learning-curve-is-a-little-bit-steep-for-beginners">3. The learning curve is a little bit steep for beginners<a class="anchor-link" href="#3.-The-learning-curve-is-a-little-bit-steep-for-beginners">&#182;</a></h4><h3 id="My-assumption-is-that-Open-Source-softwares-will-continue-to-evolve-and-will-be-used-more-and-more-in-real-designs,-but-the-access-to-real-PDKs-for-the-latest-nodes-may-still-be-an-issue-due-to-IPs-and-huge-politics-and-market-issues">My assumption is that Open Source softwares will continue to evolve and will be used more and more in real designs, but the access to real PDKs for the latest nodes may still be an issue due to IPs and huge politics and market issues<a class="anchor-link" href="#My-assumption-is-that-Open-Source-softwares-will-continue-to-evolve-and-will-be-used-more-and-more-in-real-designs,-but-the-access-to-real-PDKs-for-the-latest-nodes-may-still-be-an-issue-due-to-IPs-and-huge-politics-and-market-issues">&#182;</a></h3><h3 id="Chip-designing-and-manufacturing-will-remain-still-huge-part-of-the-politics---CHIPS-act,-DARPA-project,-USA-China-war-and-so-on.">Chip designing and manufacturing will remain still huge part of the politics - CHIPS act, DARPA project, USA-China war and so on.<a class="anchor-link" href="#Chip-designing-and-manufacturing-will-remain-still-huge-part-of-the-politics---CHIPS-act,-DARPA-project,-USA-China-war-and-so-on.">&#182;</a></h3><h3 id="Still-what-happened-is-amazing-and-I'm-really-impressed-with-everything-happend-last-two-years-!-Just-amazing-!">Still what happened is amazing and I'm really impressed with everything happend last two years ! Just amazing !<a class="anchor-link" href="#Still-what-happened-is-amazing-and-I'm-really-impressed-with-everything-happend-last-two-years-!-Just-amazing-!">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>And don't forget that there is no substitution to reading good references for best possible designs. Learning and sharing designs is now possible.</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14953,19 +15496,7 @@ For analog design usually schematic is used as input data.</p>
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Demonstration---OpenRoad">Demonstration - OpenRoad<a class="anchor-link" href="#Demonstration---OpenRoad">&#182;</a></h2><p><a href="https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb">https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb</a></p>
-
-</div>
-</div>
-</div>
-</div></section></section><section ><section >
+</div></section><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14973,15 +15504,25 @@ For analog design usually schematic is used as input data.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>References:</p>
-<pre><code>- CMOS Online Courses - Jacob Baker - http://cmosedu.com
-- Free Silicon - https://wiki.f-si.org/index.php?title=Main_Page
-
-- Open Source Has Won. Why Open Hardware, Silicon Will Win Next
-  https://peertube.f-si.org/videos/watch/51218911-1bbc-4354-b6e4-1eb7c170686f
-- LEF/DEF reference - https://web.archive.org/web/20181031162337/http://www.ispd.cc/contests/18/lefdefref.pdf
-- The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs - https://github.com/The-OpenROAD-Project/OpenLane-MPW-CI
-- gds3xtrude - https://codeberg.org/tok/gds3xtrude
-</code></pre>
+<p>Educational resources:</p>
+<ul>
+<li><p>CMOS Online Courses - Jacob Baker - <a href="http://cmosedu.com">http://cmosedu.com</a></p>
+</li>
+<li><p>Free Silicon - <a href="https://wiki.f-si.org/index.php?title=Main_Page">https://wiki.f-si.org/index.php?title=Main_Page</a></p>
+</li>
+<li><p>Open Source Has Won. Why Open Hardware, Silicon Will Win Next
+<a href="https://peertube.f-si.org/videos/watch/51218911-1bbc-4354-b6e4-1eb7c170686f">https://peertube.f-si.org/videos/watch/51218911-1bbc-4354-b6e4-1eb7c170686f</a></p>
+</li>
+<li><p>LEF/DEF reference - <a href="https://web.archive.org/web/20181031162337/http://www.ispd.cc/contests/18/lefdefref.pdf">https://web.archive.org/web/20181031162337/http://www.ispd.cc/contests/18/lefdefref.pdf</a></p>
+</li>
+<li><p>The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs - <a href="https://github.com/The-OpenROAD-Project/OpenLane-MPW-CI">https://github.com/The-OpenROAD-Project/OpenLane-MPW-CI</a></p>
+</li>
+<li><p>gds3xtrude - <a href="https://codeberg.org/tok/gds3xtrude">https://codeberg.org/tok/gds3xtrude</a></p>
+</li>
+</ul>
+<p>Other tools:</p>
+<p>QUCS and QUCS-S: <a href="https://ra3xdh.github.io/">https://ra3xdh.github.io/</a>
+WRcad: <a href="http://www.wrcad.com/">http://www.wrcad.com/</a></p>
 
 </div>
 </div>
