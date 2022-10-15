@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1980"
+   width="900"
    height="700"
-   viewBox="0 0 1980 700"
+   viewBox="0 0 900 700"
    version="1.1"
    id="svg5"
    xml:space="preserve"
@@ -26,8 +26,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.5096119"
-     inkscape:cx="888.91174"
-     inkscape:cy="597.51352"
+     inkscape:cx="886.94946"
+     inkscape:cy="599.4758"
      inkscape:window-width="1920"
      inkscape:window-height="994"
      inkscape:window-x="0"
@@ -38,10 +38,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><g
-       id="g529"
-       transform="translate(76.63297,14.308692)"><g
+       id="g1572"
+       transform="translate(-604.65126)"><g
          id="g437"
-         transform="matrix(0,1.3333333,1.3333333,0,318.12563,-53.62255)"><text
+         transform="matrix(0,1.3333333,1.3333333,0,394.7586,-39.313858)"><text
            xml:space="preserve"
            transform="matrix(0,1,1,0,72.641,282.611)"
            style="font-variant:normal;font-weight:bold;font-size:36.7668px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -51,7 +51,7 @@
              sodipodi:role="line"
              id="tspan439">Open-Source EDA Tools</tspan></text></g><g
          id="g443"
-         transform="matrix(0,1.3333333,1.3333333,0,318.12563,-53.62255)"><text
+         transform="matrix(0,1.3333333,1.3333333,0,394.7586,-39.313858)"><text
            xml:space="preserve"
            transform="matrix(0,1,1,0,117.02,189.57)"
            style="font-variant:normal;font-weight:bold;font-size:30.639px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#a52a2a;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -61,7 +61,7 @@
              sodipodi:role="line"
              id="tspan445">Tools Currently Supported by Open_PDKs</tspan></text></g><g
          id="g449"
-         transform="matrix(0,1.3333333,1.3333333,0,318.12563,-87.62255)"><text
+         transform="matrix(0,1.3333333,1.3333333,0,524.06112,-73.313858)"><text
            xml:space="preserve"
            transform="matrix(0,1,1,0,177.932,79.009)"
            style="font-variant:normal;font-weight:bold;font-size:30.639px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -71,7 +71,7 @@
              sodipodi:role="line"
              id="tspan451">Ngspice</tspan></text></g><g
          id="g455"
-         transform="matrix(0,1.3333333,1.3333333,0,318.12563,-87.62255)"><text
+         transform="matrix(0,1.3333333,1.3333333,0,394.7586,-73.313858)"><text
            xml:space="preserve"
            transform="matrix(0,1,1,0,180.161,354.789)"
            style="font-variant:normal;font-weight:bold;font-size:30.639px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#2e8b57;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -81,7 +81,7 @@
              sodipodi:role="line"
              id="tspan457">https://ngspice.sourceforge.net</tspan></text></g><g
          id="g461"
-         transform="matrix(390.26399,0,0,-484.47865,566.28696,664.4761)"><image
+         transform="matrix(390.26399,0,0,-484.47865,642.91993,678.78479)"><image
            width="1"
            height="1"
            style="image-rendering:optimizeSpeed"
